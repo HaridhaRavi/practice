@@ -1,0 +1,49 @@
+body{
+    text-align: center;
+}
+/* type selector*/
+h2{
+    color:rgb(43, 177, 226);
+}
+img{
+    border-radius: 150px;
+}
+
+/* Class Selector - can add more than one class to html tag*/
+.btn{
+    background-color: rgb(210, 68, 137);
+    color:#fff;
+    font-weight: bold;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.btn-secondary{
+    color:black !important;
+}
+
+/*id selector - only one id should be used (unique)*/
+#first-section{
+    border-top:ipx solid #333;
+}
+
+/*Universal Selector - applies for the whole html page*/
+
+
+/* descendant selector*/
+section h2{
+    text-decoration: underline;
+}
+
+.img-wrapper {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin:0 auto;
+    
+}
+
+img {
+    max-height: 100%;
+}
